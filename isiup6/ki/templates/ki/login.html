@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <link
+  rel="stylesheet"
+  href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+/>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <meta charset="UTF-8" />
+    <title>Login</title>
+</head>
+<style>
+        .container {
+            display: flex;
+            justify-content: center; /* Pusat secara horizontal */
+            align-items: center; /* Pusat secara vertikal */
+            height: 100vh; /* Tinggi 100% dari viewport height */
+        }
+
+        body{
+    background-color: rgb(255, 246, 246);
+  }
+
+  .form-label{
+     text-align: left;
+  }
+  </style>
+
+<body>
+    <section class="text-lg-start">
+        <div class="container">
+            <div class="row">
+              <div class="col-md-12 post-content">
+
+                <h1 style="text-align: center;">Login</h1>
+                <br>
+            
+    <form method="post">
+        {% csrf_token %}
+
+        <div class="form-outline mb-8">
+        <label class="form-label" for="username"><strong>Username:</strong></label><br>
+        <input type="text" id="username" name="username" class="form-control" required><br>
+        </div>
+
+        <div class="form-outline mb-8">
+        <label class="form-label"  for="password"><strong>Password:</strong></label> <br>
+        <input type="password" id="password" name="password" class="form-control" required><br>
+        </div>
+
+        <!-- Submit button -->
+        <button type="submit" class="btn btn-primary btn-block mb-4">Login</button>
+
+    </form>
+    <p>Don't have an account? <a href="{% url 'upload_data' %}">Register here</a></p>
+</div>
+</div>
+</div>
+</section>
+</body>
+</html>

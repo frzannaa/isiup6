@@ -1,0 +1,51 @@
+
+
+/* Container styling */
+/* .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  } */
+  
+  /* Form field styling */
+  /* .form-group {
+    margin-bottom: 20px;
+  } */
+  
+  /* Form field labels */
+  /* .form-group label {
+    font-weight: bold;
+    display: block;
+  } */
+  
+  /* Form field input elements */
+  /* .form-group input[type="text"],
+  .form-group input[type="password"],
+  .form-group input[type="email"],
+  .form-group input[type="file"],
+  .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: none;
+  } */
+  
+  /* Form submit button
+  .btn {
+    background-color: #d9a0a0a5;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+  } */
+  
+  /* Add lines between form groups */
+  /* .form-group:not(:last-child) {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+  } */
+  
